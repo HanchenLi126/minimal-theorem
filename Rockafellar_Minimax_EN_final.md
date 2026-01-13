@@ -97,11 +97,18 @@ and let $\Omega(F)$ be the collection of all concave-convex functions $K$ on $R^
 
 For a concave-convex function $K$ on $R^m \times R^n$, Rockafellar defines:
 
-**Lower Conjugate**:
-$$\underline{K}^*(u^*, v^*) = \sup_v \inf_u \{\langle u, u^* \rangle + \langle v, v^* \rangle - K(u, v)\}$$
+Lower conjugate:
+\[
+\underline{K}^{*}(u^{*},v^{*})
+=\sup_{v}\ \inf_{u}\ \bigl(\langle u,u^{*}\rangle+\langle v,v^{*}\rangle-K(u,v)\bigr).
+\]
 
-**Upper Conjugate**:
-$$\bar{K}^*(u^*, v^*) = \inf_u \sup_v \{\langle u, u^* \rangle + \langle v, v^* \rangle - K(u, v)\}$$
+Upper conjugate:
+\[
+\overline{K}^{*}(u^{*},v^{*})
+=\inf_{u}\ \sup_{v}\ \bigl(\langle u,u^{*}\rangle+\langle v,v^{*}\rangle-K(u,v)\bigr).
+\]
+
 
 **Key Observation**: By Lemma 36.1, we always have $\underline{K}^* \leq \bar{K}^*$.
 
