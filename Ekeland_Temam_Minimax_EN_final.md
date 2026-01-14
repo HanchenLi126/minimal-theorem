@@ -422,7 +422,7 @@ This is the complete proof framework for the Ekeland-Témam convex analysis appr
 There is a natural **canonical embedding** $J: V \to V^{**}$ defined by:
 $$J(x)(f) = f(x), \quad \forall f \in V^*$$
 
-**Interpretation**: Given any $x \in V$, $J(x)$ is a functional on $V^*$ that "evaluates $f$ at $x$".
+**Interpretation**: Given any $x \in V{**}$, $J(x)$ is a functional on $V^{**}$ that "evaluates $f$ at $x$".
 
 **Properties of $J$**:
 - **Linear**: $J(\alpha x + \beta y) = \alpha J(x) + \beta J(y)$
